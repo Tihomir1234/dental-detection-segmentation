@@ -9,7 +9,8 @@ import matplotlib.pyplot as plt
 @st.cache_resource
 def load_model():
     print(Path.cwd())
-    model_path = Path("/mount/src/gdp-dashboard/best.pt")
+    model_path = Path("/mount/src/dental-detection-segmentation/best.pt")
+
     model = YOLO(model_path)
     return model
 
