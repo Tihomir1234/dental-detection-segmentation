@@ -1,2 +1,6 @@
 streamlit
-openai
+pandas
+#opencv-python
+opencv-python-headless
+dill
+ultralytics
